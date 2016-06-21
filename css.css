@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+  display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, nav
+article, aside, footer, header, main, nav, section {
+  padding: 0;
+  margin: 0;
+}
+h3  {outline-color: gray;
+    outline-style: solid;
+	position: relative
+	border; -5px
+    outline-width: 1px;
+}
+
+.banner {
+  background-color: #11233b;
+  color: white;
+  padding: 10px 20px;
+}
+
+body {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f0f0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+#container{
+    position: absolute;
+    z-index: 1001;
+}
+a.mainNav{
+    color: White;
+    font-weight: bold;
+    font-size: 12px;
+    height: 40px;
+    padding: 0px 10px;
+    line-height: 40px;
+    float: left;
+    background-color: #1D3E66;
+}
+a.mainNav:hover{
+    background-color: #3D6199;
+    color: #AAAAAA;
+}
+a.selectedRollover{
+    color: White;
+    font-weight: bold;
+    font-size: 12px;
+    height: 40px;
+    padding: 0px 10px;
+    line-height: 40px;
+    float: left;
+    background-color: #3D6199;
+}
+.rolloverMenu{
+    float:left;
+    padding: 10px 10px 6px 10px;
+    position: absolute;
+    z-index: 1000;
+    background-color: #3D6199;
+    width: 100px;
+}
+.rolloverMenu#mainMenu{
+    top: 40px;
+}
+.rolloverMenu a{
+    color: White;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+}
+section {
+  background-color: #bbbbbb;
+  margin-top: 0px;
+  padding: 5px;
+}
+
+article {
+  background-color: white;
+  margin-top: 5px;
+  padding: 10px 15px;
+}
+
+main {
+  width: 640px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+aside {
+  background-color: #bbbbbb;
+  width: 270px;
+  float: right;
+  padding: 20px;
+  margin-top: 10px;
+}
+ul, li{
+	margin: 0; padding: 0; border: 0;
+}
+
+
+
+#MoreBikes {
+	width: 500px; margin: 200px auto;
+}
+
+#MoreBikes li {
+	list-style: none; float: left; margin: 15px;
+}
+
+	#wizards a img {
+		border: 5px solid #aaa;
+	}
+		#wizards a:hover img {
+			border: 5px solid #75879d;
+		}
+
+footer {
+  clear: both;
+  background-color: #0099CC;
+
+  color: white;
+  padding: 5px 20px;
+}
