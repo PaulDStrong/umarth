@@ -1,0 +1,80 @@
+body {
+    background-image:url("bground.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height:100%;
+    background-size:cover;
+	overflow: hidden;
+}
+
+.video {
+    
+    height: 54.9%;
+    width: 54.8%;       
+    position: absolute;
+    margin: auto;
+    top: 56.3%;
+    left: 71.5%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    
+}
+#video {
+	
+  vertical-align:middle;
+}
+#slideshow {     
+    
+	
+	height: 100%;
+	width: 75%;
+	position: absolute;
+    margin: auto;
+    top: 53.25%;
+    left: 21.5%;
+    transform: translate(-50%, -50%);
+	
+}
+
+#slideshow div { 
+    height: 75%;
+	width: 75%;
+	position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#slideshow img {
+	height: 65%;
+	width: 75%;
+	position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#clock {
+	font-size: 350%;
+	color: white;	
+	position: absolute;    
+    bottom: 1%;
+    left: 14%;
+}
+#day {
+	font-size: 350%;
+	color: white;	
+	position: absolute;    
+    bottom: 15%;
+    left: 14.5%;
+}
+#date {
+	font-size: 350%;
+	color: white;	
+	position: absolute;    
+    bottom: 8%;
+    left: 12%;
+	border-bottom: 3px solid white;
+}
